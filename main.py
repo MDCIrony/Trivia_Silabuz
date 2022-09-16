@@ -430,7 +430,7 @@ while True:
         else:  #SI RESPONDIÓ INCORRECTAMENTE...
             #Si estamos en la última no hacemos el timing
             if questionSelect != questionsSet[len(questionsSet) - 1]:
-                subScore = random.randint(5, 1)
+                subScore = random.randint(1, 5)
                 score -= subScore
                 print(
                     setColour(
@@ -447,7 +447,7 @@ while True:
                 print("Prepárate, pasaremos a la siguiente pregunta en: ")
                 countDown()
             else:
-                subScore = random.randint(5, 1)
+                subScore = random.randint(1, 5)
                 score -= subScore
                 print(
                     setColour(
