@@ -40,7 +40,7 @@ def inputNumeric(name, waitTime=3):
                 registeredNumber = None
                 time.sleep(waitTime)
 
-        elif registeredNumber >= 0 and registeredNumber <= 6:
+        elif registeredNumber >= 1 and registeredNumber <= 6:
             break
 
         else:
